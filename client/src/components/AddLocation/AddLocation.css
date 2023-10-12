@@ -1,0 +1,8 @@
+form {
+
+    .flexCenter {
+        @media (max-width: 640px) {
+            display: block;
+        }
+    }
+}
