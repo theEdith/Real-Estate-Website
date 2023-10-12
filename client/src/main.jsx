@@ -7,9 +7,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
       domain="dev-socpkrvdquf6tfcy.us.auth0.com"
-      clientId="ORVaMmHlwkrvbzfQMOdbF21Jmhq95YWd"
+      clientId="mIR1nAwwS9eFDxZkPVowPDjIti85OFeG"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173",
+        redirect_uri: "https://real-estate-website-ashen.vercel.app",
       }}
       audience="http://localhost:8000"
       scope="openid profile email"
