@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
     provider = "mongodb"
-    url      = "mongodb+srv://kartiksoni1028:z3n9t6KWi86u6Nx8@cluster0.hn6awy9.mongodb.net/RealEstate?retryWrites=true&w=majority&appName=AtlasApp"
+    url      = env("DATABASE_URL")
 }
 
 model User {
