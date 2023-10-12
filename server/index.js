@@ -13,7 +13,10 @@ app.use(cors());
 app.use(cookieParser());
 
 const PORT = process.env.PORT || 3000;
-
+app.get('/', (req,res) => {
+    console.log("Server is working")
+    res.send("Server running")
+})
 app.use('/api/user', userRoute)
 app.use('/api/residency', residencyRoute);
 
