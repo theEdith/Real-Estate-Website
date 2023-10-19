@@ -134,7 +134,7 @@ export const getAllFav=async(email,token)=>{
       )
       return res.data["favResidenciesID"]
   } catch (e) {
-      toast.error("something went wrong while fetching favorites")
+      toast.error("Something went wrong while fetching favorites")
       throw e
   }
 }
