@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  baseURL: "https://vercel.com/theedith/real-estate-website-server/api",
+  baseURL: "https://real-estate-website-server.vercel.app/api",
 });
 
 export const getAllProperties = async () => {
